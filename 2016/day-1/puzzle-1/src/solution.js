@@ -10,8 +10,8 @@ class Solution {
     }
 
     distanceFromStart(directions) {
-        for(const d in directions)
-            move(d)
+        for(let d of directions.split(', ')) 
+            this.move(d)
 
         return Math.abs(this.x) + Math.abs(this.y)
     }
