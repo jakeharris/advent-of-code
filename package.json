@@ -11,5 +11,8 @@
     "code-practice"
   ],
   "author": "Jake (milieu)",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^3.2.0"
+  }
 }
