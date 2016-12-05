@@ -3,12 +3,12 @@ const assert = require('assert'),
 
 describe('Solution', () => {
     it('returns 5 when given {R2, L3}', () => {
-        assert.equals(new Solution().distanceFromStart('R2, L3'.split(', ')), 5)
+        assert.equal(new Solution().distanceFromStart('R2, L3'), 5)
     })
     it('returns 2 when given {R2, R2, R2}', () => {
-        assert.equals(new Solution().distanceFromStart('R2, R2, R2'.split(', '), 2))
+        assert.equal(new Solution().distanceFromStart('R2, R2, R2'), 2)
     })
     it('returns 12 when given {R5, L5, R5, R3}', () => {
-        assert.equals(new Solution().distanceFromStart('R5, L5, R5, R3'.split(', '), 12))
+        assert.equal(new Solution().distanceFromStart('R5, L5, R5, R3'), 12)
     })
 })
