@@ -1,0 +1,15 @@
+{
+  "name": "advent-of-code",
+  "version": "0.0.0",
+  "description": "Work on advent of code puzzles. (adventofcode.com)",
+  "main": "''",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "puzzle",
+    "code-practice"
+  ],
+  "author": "Jake (milieu)",
+  "license": "ISC"
+}
