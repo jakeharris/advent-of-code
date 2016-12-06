@@ -13,6 +13,8 @@ class Solution {
 
             // split by space characters, ignoring leading
             // whitespace
+            // map(Number) calls the Number constructor on
+            // each element (which are strings)
             let sides = triangle.trim().split(/\s+/).map(Number).sort((a, b) => {
                 if(a < b) return -1
                 if(a > b) return 1
